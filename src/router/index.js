@@ -1,5 +1,11 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '@/views/HomeView.vue'
+import SignUpPage from '@/components/SignUpPage.vue'
+import LoginPage from '@/components/LoginPage.vue'
+import KiaView from '@/views/KiaView.vue'
+import Product_Page from '@/components/Product_Page.vue'
+import Cart_Page from '@/components/Cart_Page.vue'
+import OrderDetails from '@/components/OrderDetails.vue'
 
 const routes = [
   {
@@ -8,12 +14,44 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path:'/product',
+    name:'product',
+    component:Product_Page,
+  },
+  {
+    path:'/cart',
+    name:'cart',
+    component:Cart_Page
+  },
+  {
+    path:'/login',
+    name:'login',
+    component:LoginPage
+  },
+  {
+    path:'/signup',
+    name:'signup',
+    component:SignUpPage
+  },
+  {
+    path:'/productdetails/:id',
+    name:'productdetails',
+    component: () => import("@/components/ProductDetails.vue")
+  },
+  {
+    path:'/checkout',
+    name:'checkout',
+    component: () => import("@/components/CheckoutPage.vue")
+  },
+  {
+    path:'/orderdetails',
+    name:'orderdetails',
+    component:OrderDetails
+  },
+  {
+    path:'/kiaview',
+    name:'kiaview',
+    component:KiaView
   }
 ]
 

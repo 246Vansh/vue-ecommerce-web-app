@@ -1,0 +1,77 @@
+{
+  "user": [
+    {
+      "id": "cda6",
+      "name": "vansh",
+      "email": "vansh@text.com",
+      "password": "abc@123",
+      "confirmPassword": "abc@123"
+    },
+    {
+      "id": "a76c",
+      "name": "tony",
+      "email": "tony@test.com",
+      "password": "tony@123"
+    },
+    {
+      "id": "443b",
+      "name": "bruce",
+      "email": "bruce@test.com",
+      "password": "bruce@123"
+    },
+    {
+      "id": "f48d",
+      "name": "jhon",
+      "email": "john@test.com",
+      "password": "john@123"
+    },
+    {
+      "id": "2f52",
+      "name": "sam",
+      "email": "sam@test.com",
+      "password": "sam@123"
+    },
+    {
+      "id": "155b",
+      "name": "jimmy",
+      "email": "jimmy@test.com",
+      "password": "jimmy@123"
+    },
+    {
+      "id": "9e73",
+      "name": "jam",
+      "email": "jam@test.com",
+      "password": "jam@123"
+    },
+    {
+      "id": "6e6b",
+      "name": "harsh",
+      "email": "246harsh@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "78b9",
+      "name": "VANSH GUPTA",
+      "email": "gupta@test.com",
+      "password": "gupta@123"
+    },
+    {
+      "id": "5530",
+      "name": "bob mosh",
+      "email": "bob@test.com",
+      "password": "bob@123"
+    },
+    {
+      "id": "8c43",
+      "name": "John mosh",
+      "email": "jm@test.com",
+      "password": "jm@123"
+    },
+    {
+      "id": "706c",
+      "name": "VANSH GUPTA",
+      "email": "246hh@gmail.com",
+      "password": "vansh@123"
+    }
+  ]
+}
