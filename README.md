@@ -14,10 +14,9 @@ Reusable and modular UI components
 Clean and intuitive user interface
 
 🛠 Tech Stack
-Frontend
-Vue3, JavaScript(ES6+), TalwindCSS
-Tools & Platforms
-Git & GitHub, Browser DevTools
+
+Frontend: Vue3, JavaScript(ES6+), TalwindCSS
+Tools & Platforms: Git & GitHub, Browser DevTools
 
 ⚙️ How It Works
 
@@ -37,4 +36,5 @@ GitHub: https://github.com/246Vansh
 LinkedIn: https://www.linkedin.com/in/246vansh
 
 ⭐ Feedback
+
 If you find this project useful, feel free to star ⭐ the repository.
