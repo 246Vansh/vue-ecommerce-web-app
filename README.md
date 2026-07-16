@@ -15,7 +15,7 @@ Clean and intuitive user interface
 
 🛠 Tech Stack
 
-Frontend: Vue3, JavaScript(ES6+), TalwindCSS
+Frontend: Vue3, JavaScript(ES6+), TailwindCSS
 Tools & Platforms: Git & GitHub, Browser DevTools
 
 ⚙️ How It Works
